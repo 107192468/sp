@@ -1,0 +1,1 @@
+INSERT INTO review_object(object_type_id,city_id,plaza_id,category_id,store_id,review_num,average_score,score_1_num,score_2_num,score_3_num,score_4_num,score_5_num,good_review_num,bad_review_num,like_flag,version,remark,create_time) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)

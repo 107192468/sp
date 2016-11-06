@@ -1,0 +1,12 @@
+INSERT INTO review(review_object_id,object_type_id,
+                   review_category,category_id,
+                   store_id,user_id,current_roster_type,
+                   ip,type,
+                   source,status,
+                   order_flag,order_no,
+                   pic_flag,pic_urls,
+                   like_num,reply_num,
+                   title,content,
+                   is_valid,is_anonym,
+                   version,remark,
+                   create_time,update_time)VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
