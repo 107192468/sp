@@ -27,6 +27,40 @@ func connectDatabase(username, password, host, port, database string) (err error
 	err = db.Ping()
 	return
 }
+func InsertCiyt(id, name string) {
+	stmt, err := db.Prepare("INSERT INTO city(" +
+		"city_id,city_name)VALUES(?,?)")
+	if err != nil {
+		panic(err)
+	}
+	defer stmt.Close()
+
+	_, err = stmt.Exec(
+		id,
+		name,
+	)
+	if err != nil {
+		fmt.Println(err)
+	}
+}
+
+func InsertBusiness(id, name, cityId string) {
+	stmt, err := db.Prepare("INSERT business(" +
+		"id,name,city_id)VALUES(?,?,?)")
+	if err != nil {
+		panic(err)
+	}
+	defer stmt.Close()
+
+	_, err = stmt.Exec(
+		id,
+		name,
+		cityId,
+	)
+	if err != nil {
+		fmt.Println(err)
+	}
+}
 
 func InsertReview(review *beans.Review) {
 

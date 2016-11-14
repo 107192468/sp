@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;sp &gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/gopath/src/gopkg.in" />
+      <root url="file://$USER_HOME$/gopath/src/golang.org" />
+      <root url="file://$USER_HOME$/gopath/src/bitbucket.org" />
+      <root url="file://$USER_HOME$/gopath/src/google.golang.org" />
+      <root url="file://$USER_HOME$/gopath/src/github.com" />
+      <root url="file://$PROJECT_DIR$/src" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
