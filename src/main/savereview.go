@@ -22,7 +22,8 @@ import (
 )
 
 const (
-	excelPath = "/home/zl/reviews/"
+	//excelPath = "/home/zl/reviews/"
+	excelPath="d:\\reviews"
 )
 
 func main() {
